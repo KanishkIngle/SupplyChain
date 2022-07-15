@@ -1,0 +1,22 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "simple blockchain demonstration",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "Blockchain"
+  ],
+  "author": "Kanishk",
+  "license": "ISC",
+  "dependencies": {
+    "object-hash": "^3.0.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^2.0.10",
+    "web3": "^1.7.4"
+  }
+}
